@@ -2,39 +2,46 @@
 Debug
 */
 
-header{
+header {
     height: 90px;
 }
 
-#start-bootstrap{
+#start-bootstrap {
     height: 500px;
 }
 
-#portfolio .row div{
+#portfolio .row div {
     height: 250px;
 }
 
-#about{
+#about {
     height: 400px;
 }
 
-#contact{
+#contact {
     height: 400px;
 }
 
-#footer-top{
+#footer-top {
     height: 230px;
 }
 
-#footer-bottom{
+#footer-bottom {
     height: 100px;
+}
+
+.place-holder{
+    width: 230px;
+    height: 260px;
+    background-color: red;
+    margin: 0 auto;
 }
 
 /*
 Header
 */
 
-header{
+header {
     background-color: #2c3e50;
 }
 
@@ -42,35 +49,35 @@ header{
 Main
 */
 
-#start-bootstrap{
+#start-bootstrap {
     background-color: #1abc9c;
 }
-    
-#box-1{
+
+#box-1 {
     background-color: #ba4b63;
 }
 
-#box-2{
+#box-2 {
     background-color: #1ea4b6;
 }
 
-#box-3{
+#box-3 {
     background-color: #140f0f;
 }
 
-#box-4{
+#box-4 {
     background-color: #1c83c1;
 }
 
-#box-5{
+#box-5 {
     background-color: #0e38b5;
 }
 
-#box-6{
+#box-6 {
     background-color: #ccb2a3;
 }
 
-#about{
+#about {
     background-color: #1abc9c;
 }
 
@@ -78,10 +85,10 @@ Main
 Footer
 */
 
-#footer-top{
+#footer-top {
     background-color: #3a546d;
 }
 
-#footer-bottom{
+#footer-bottom {
     background-color: #2c3e50;
 }
