@@ -10,6 +10,10 @@ header {
 Main
 */
 
+i::before{
+    
+}
+
 #start-bootstrap {
     background-color: #1abc9c;
 }
@@ -42,4 +46,38 @@ Footer
 
 #footer-bottom {
     background-color: #2c3e50;
+}
+
+/*
+Stella
+*/
+.star-bar {
+    position: relative;
+    font-size: 30px;
+}
+
+.star-bar::after, .star-bar::before {
+    content: '';
+    height: 5px;
+    width: 150px;
+    background-color: black;
+    display: block;
+}
+
+
+.star-bar::after {
+    position: absolute;
+    right: 30%;
+    bottom: 40%;
+}
+
+.star-bar::before {
+    position: absolute;
+    left: 30%;
+    bottom: 40%;
+}
+
+#start-bootstrap .star-bar::before,#start-bootstrap .star-bar::after,
+#about .star-bar::after, #about .star-bar::before{
+    background-color: white;
 }
